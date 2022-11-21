@@ -58,7 +58,7 @@ body {
 
 /* ---- plans-left-card ---- */
 .plans_l {
-	@apply rounded-[9px] bg-[#fff] py-[32px] pl-[25px] pr-[220px] shadow-custom;
+	@apply rounded-[9px] bg-[#fff] tb:p-planPaddsL mb:p-planPaddsMedia shadow-custom;
 }
 
 .bold {
@@ -67,7 +67,7 @@ body {
 
 /* ---- plans-right-card ---- */
 .plans_r {
-	@apply rounded-[9px] bg-[#fff] py-[32px] pl-[25px] pr-[210px] shadow-custom;
+	@apply rounded-[9px] bg-[#fff] tb:p-planPaddsR mb:p-planPaddsMedia shadow-custom;
 }
 
 .plan:not(:last-child) {

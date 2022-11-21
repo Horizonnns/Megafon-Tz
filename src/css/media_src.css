@@ -3,3 +3,15 @@
 		@apply gap-[20px] justify-center;
 	}
 }
+
+@media (max-width: 560px) {
+	.plans {
+		@apply grid-cols-media;
+	}
+}
+
+@media (max-width: 1079px) {
+	.plans {
+		@apply justify-items-stretch;
+	}
+}

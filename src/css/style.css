@@ -2,8 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('./reset.css');
-@import url('./fonts.css');
+@import './fonts.css';
 
 html {
 	scroll-behavior: smooth;
@@ -28,5 +27,5 @@ body {
 }
 
 .header-numbers select {
-	outline-color: #00bd49;
+	@apply text-white bg-[#00bd49] outline-[#00bd49];
 }

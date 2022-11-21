@@ -18,5 +18,18 @@
 				</div>
 			</nav>
 		</header>
+
+		<!-- ----------plans----------- -->
+		<section>
+			<div class="container">
+				<div class="plans">
+					<div class="plans_l">
+						<p class="descr">Текущий баланс:</p>
+						<h1 class="title bold">12,00 TJS</h1>
+						<button class="btn">+ Пополнить</button>
+					</div>
+				</div>
+			</div>
+		</section>
 	</body>
 </template>

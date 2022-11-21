@@ -13,6 +13,27 @@ body {
 	font-family: 'GTWalsheimPro', sans-serif;
 }
 
+/* repeat styles */
+/* title */
+.title {
+	@apply text-[#313131] text-[31px] font-[700] mb-[10px];
+}
+
+/* descr */
+.descr {
+	@apply text-[#a0a0a0] text-[15px] font-[500] mb-[10px];
+}
+
+/* btn */
+.btn {
+	@apply text-[#52a9df] text-[15px] font-[700] transition-all duration-[0.3s] active:scale-[0.9];
+}
+
+/* container */
+.container {
+	@apply my-0 mx-auto py-0 px-[30px] max-w-[1260px];
+}
+
 /* header */
 .header {
 	@apply grid items-center justify-between pt-[30px] pb-[115px] px-[60px] bg-[#00bd49] grid-cols-header;
@@ -29,3 +50,19 @@ body {
 .header-numbers select {
 	@apply text-white bg-[#00bd49] outline-[#00bd49];
 }
+
+/* Section - Plans */
+.plans {
+	@apply grid gap-[20px] mt-[-30px] items-start justify-items-end justify-center grid-cols-body;
+}
+
+/* ---- plans-left-card ---- */
+.plans_l {
+	@apply rounded-[9px] bg-[#fff] py-[32px] pl-[25px] pr-[220px] shadow-custom;
+}
+
+.bold {
+	font-weight: 800;
+}
+
+/* ---- plans-right-card ---- */

@@ -14,3 +14,20 @@ body {
 	background-color: #ececec;
 	font-family: 'GTWalsheimPro', sans-serif;
 }
+
+/* header */
+.header {
+	@apply grid items-center justify-between pt-[30px] pb-[115px] px-[60px] bg-[#00bd49] grid-cols-header;
+}
+
+.header-img {
+	@apply w-[142px] h-[32px] cursor-pointer;
+}
+
+.header-numbers {
+	@apply text-white text-[14px] font-[500];
+}
+
+.header-numbers select {
+	outline-color: #00bd49;
+}

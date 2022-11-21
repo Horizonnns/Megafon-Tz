@@ -1,6 +1,6 @@
 @font-face {
 	font-family: 'GTWalsheimPro';
-	src: url(../fonts/GTWalsheimPro-Medium.woff);
+	src: url(./../fonts/GTWalsheimPro-Medium.woff);
 	font-weight: 500;
 	font-display: swap;
 	font-style: normal;
@@ -8,7 +8,7 @@
 
 @font-face {
 	font-family: 'GTWalsheimPro';
-	src: url(../fonts/GTWalsheimPro-Bold.woff);
+	src: url(./../fonts/GTWalsheimPro-Bold.woff);
 	font-weight: 700;
 	font-display: swap;
 	font-style: normal;
@@ -16,7 +16,7 @@
 
 @font-face {
 	font-family: 'GTWalsheimPro';
-	src: url(../fonts/GTWalsheimPro-UltraBold.woff);
+	src: url(./../fonts/GTWalsheimPro-UltraBold.woff);
 	font-weight: 800;
 	font-display: swap;
 	font-style: normal;

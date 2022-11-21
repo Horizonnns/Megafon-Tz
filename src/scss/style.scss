@@ -1,0 +1,12 @@
+@import url('./reset.scss');
+@import url('./fonts.scss');
+
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	background-color: #ececec;
+	font-family: 'GTWalsheimPro', sans-serif;
+}

@@ -4,8 +4,8 @@ module.exports = {
 	theme: {
 		extend: {
 			screens: {
-				// mobile (320px)
-				mb: '320px',
+				// mobile (270px)
+				mb: '270px',
 
 				// tablet (560px)
 				tb: '560px',

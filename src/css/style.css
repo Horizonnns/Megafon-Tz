@@ -2,9 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('./reset.scss');
-@import url('./fonts.scss');
-
+@import url('./reset.css');
+@import url('./fonts.css');
 
 html {
 	scroll-behavior: smooth;

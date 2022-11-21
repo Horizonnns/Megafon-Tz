@@ -1,5 +1,5 @@
 import { createApp } from 'vue';
-import './scss/style.scss';
+import './css/style.css';
 import './css/media_src.css';
 import App from './App.vue';
 
